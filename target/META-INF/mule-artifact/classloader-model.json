@@ -1,0 +1,422 @@
+{
+  "version": "1.1.0",
+  "artifactCoordinates": {
+    "groupId": "com.mycompany",
+    "artifactId": "database",
+    "version": "1.0.0-SNAPSHOT",
+    "type": "jar",
+    "classifier": "mule-application"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-http-connector",
+        "version": "1.5.3",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-http-connector/1.5.3/mule-http-connector-1.5.3-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-sockets-connector",
+        "version": "1.1.5",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-sockets-connector/1.1.5/mule-sockets-connector-1.1.5-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-spring-module",
+        "version": "1.3.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-spring-module/1.3.0/mule-spring-module-1.3.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework.security",
+        "artifactId": "spring-security-config",
+        "version": "4.2.6.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/security/spring-security-config/4.2.6.RELEASE/spring-security-config-4.2.6.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "aopalliance",
+        "artifactId": "aopalliance",
+        "version": "1.0",
+        "type": "jar"
+      },
+      "uri": "repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework.security",
+        "artifactId": "spring-security-core",
+        "version": "4.2.6.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-expression",
+        "version": "4.3.17.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-expression/4.3.17.RELEASE/spring-expression-4.3.17.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-beans",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-core",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-jcl",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-jdbc",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework.data",
+        "artifactId": "spring-data-jpa",
+        "version": "2.1.6.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.aspectj",
+        "artifactId": "aspectjrt",
+        "version": "1.9.2",
+        "type": "jar"
+      },
+      "uri": "repository/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.25",
+        "type": "jar"
+      },
+      "uri": "repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-context",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.module",
+        "artifactId": "mule-java-module",
+        "version": "1.2.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/module/mule-java-module/1.2.0/mule-java-module-1.2.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.hsqldb",
+        "artifactId": "hsqldb",
+        "version": "2.4.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/hsqldb/hsqldb/2.4.1/hsqldb-2.4.1.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-orm",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-orm/5.1.0.RELEASE/spring-orm-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "javax.persistence",
+        "artifactId": "javax.persistence-api",
+        "version": "2.2",
+        "type": "jar"
+      },
+      "uri": "repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.hibernate",
+        "artifactId": "hibernate-core",
+        "version": "5.4.2.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.jboss.logging",
+        "artifactId": "jboss-logging",
+        "version": "3.3.2.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.javassist",
+        "artifactId": "javassist",
+        "version": "3.24.0-GA",
+        "type": "jar"
+      },
+      "uri": "repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.9.10",
+        "type": "jar"
+      },
+      "uri": "repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "antlr",
+        "artifactId": "antlr",
+        "version": "2.7.7",
+        "type": "jar"
+      },
+      "uri": "repository/antlr/antlr/2.7.7/antlr-2.7.7.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.jboss.spec.javax.transaction",
+        "artifactId": "jboss-transaction-api_1.2_spec",
+        "version": "1.1.1.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.jboss",
+        "artifactId": "jandex",
+        "version": "2.0.5.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.fasterxml",
+        "artifactId": "classmate",
+        "version": "1.3.4",
+        "type": "jar"
+      },
+      "uri": "repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "javax.activation",
+        "artifactId": "javax.activation-api",
+        "version": "1.2.0",
+        "type": "jar"
+      },
+      "uri": "repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.dom4j",
+        "artifactId": "dom4j",
+        "version": "2.1.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.hibernate.common",
+        "artifactId": "hibernate-commons-annotations",
+        "version": "5.1.0.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "javax.xml.bind",
+        "artifactId": "jaxb-api",
+        "version": "2.3.1",
+        "type": "jar"
+      },
+      "uri": "repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.glassfish.jaxb",
+        "artifactId": "jaxb-runtime",
+        "version": "2.3.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.glassfish.jaxb",
+        "artifactId": "txw2",
+        "version": "2.3.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.sun.istack",
+        "artifactId": "istack-commons-runtime",
+        "version": "3.0.7",
+        "type": "jar"
+      },
+      "uri": "repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.jvnet.staxex",
+        "artifactId": "stax-ex",
+        "version": "1.8",
+        "type": "jar"
+      },
+      "uri": "repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.sun.xml.fastinfoset",
+        "artifactId": "FastInfoset",
+        "version": "1.2.15",
+        "type": "jar"
+      },
+      "uri": "repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.hibernate",
+        "artifactId": "hibernate-entitymanager",
+        "version": "5.4.2.Final",
+        "type": "jar"
+      },
+      "uri": "repository/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework.data",
+        "artifactId": "spring-data-commons",
+        "version": "2.1.6.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-aop",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-tx",
+        "version": "5.1.0.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-db-connector",
+        "version": "1.3.3",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-db-connector/1.3.3/mule-db-connector-1.3.3-mule-plugin.jar"
+    }
+  ]
+}
