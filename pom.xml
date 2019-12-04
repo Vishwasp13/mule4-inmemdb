@@ -33,7 +33,8 @@
 						<username>${username}</username>
 						<password>${password}</password>
 						<environment>${environment}</environment>
-						<applicationName>${application.name}</applicationName>					
+						<applicationName>${application.name}</applicationName>
+						<muleVersion>${mule.version}</muleVersion>
 					</cloudHubDeployment>
 					<sharedLibraries>
 						<sharedLibrary>

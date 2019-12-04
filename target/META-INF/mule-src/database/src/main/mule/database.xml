@@ -28,4 +28,16 @@ payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
+	<flow name="databaseFlow1" doc:id="71c03c9f-da68-4972-adfa-19c0acdf905a" >
+		<http:listener doc:name="Listener" doc:id="f54d4622-f515-49b5-a7a5-dbb5998848bd" config-ref="HTTP_Listener_config" path="/create"/>
+		<db:insert doc:name="Insert" doc:id="52d9714e-2590-413d-91fe-6c2d26c3876c" config-ref="Database_Config">
+			<db:sql >insert into employee values(:empid,:empname,:city)</db:sql>
+			<db:input-parameters ><![CDATA[#[{
+	"empid": payload.id,
+	"empname": payload.name,
+	"city": payload.city
+}]]]></db:input-parameters>
+		</db:insert>
+		<logger level="INFO" doc:name="Logger" doc:id="e3e90f12-c0ad-4ba0-a576-9ce258a6174b" message="Record inserted succesfully."/>
+	</flow>
 </mule>

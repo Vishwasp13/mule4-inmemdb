@@ -29,6 +29,12 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<username>${username}</username>
+						<password>${password}</password>
+						<environment>${environment}</environment>
+						<applicationName>${application.name}</applicationName>					
+					</cloudHubDeployment>
 					<sharedLibraries>
 						<sharedLibrary>
 							<groupId>org.springframework.security</groupId>
@@ -92,6 +98,15 @@
 						</sharedLibrary>
                     </sharedLibraries>
 				</configuration>
+				<executions>
+				  <execution>
+				    <id>deploy</id>
+					<phase>deploy</phase>
+					<goals>
+					  <goal>deploy</goal>
+					</goals>
+				  </execution>				
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
